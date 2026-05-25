@@ -216,9 +216,41 @@ Sentiment Label
 
 ## 🤝 Contributors
 
-<a href="https://github.com/rudrasingh-7/Twitter-Sentiment-Analyzer/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rudrasingh-7/Twitter-Sentiment-Analyzer" />
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/rudrasingh-7">
+        <img src="https://github.com/rudrasingh-7.png" width="100px;" alt="Rudra"/>
+        <br />
+        <sub><b>Rudra Singh</b></sub>
+      </a>
+    </td>
+
+    <td align="center">
+      <a href="https://github.com/aprakash42">
+        <img src="https://github.com/aprakash42.png" width="100px;" alt="aprakash42"/>
+        <br />
+        <sub><b>aprakash42</b></sub>
+      </a>
+    </td>
+
+    <td align="center">
+      <a href="https://github.com/amm-09">
+        <img src="https://github.com/amm-09.png" width="100px;" alt="amm-09"/>
+        <br />
+        <sub><b>amm-09</b></sub>
+      </a>
+    </td>
+
+    <td align="center">
+      <a href="https://github.com/Ayushmanitripathi">
+        <img src="https://github.com/Ayushmanitripathi.png" width="100px;" alt="Ayushmanitripathi"/>
+        <br />
+        <sub><b>Ayushmanitripathi</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
