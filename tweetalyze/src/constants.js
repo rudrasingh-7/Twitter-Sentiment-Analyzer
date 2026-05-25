@@ -2,7 +2,7 @@
 //  constants.js — All real data from Sentiment140 + notebook results
 // ══════════════════════════════════════════════════════════════════════════
 
-export const API_BASE = "http://localhost:5000";
+export const API_BASE = "https://twitter-sentiment-analyzer-c6jt.onrender.com";
 
 export const BINARY_MODELS = [
   { name: "Logistic Regression (tuned)", accuracy: 76.71, wrong: 74542,  color: "#b06be8" },

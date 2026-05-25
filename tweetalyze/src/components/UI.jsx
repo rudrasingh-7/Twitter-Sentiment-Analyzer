@@ -3,7 +3,7 @@
 // ══════════════════════════════════════════════════════════════════════════
 
 import { useState } from "react";
-import { API_BASE, sentColors } from "../constants";
+import { API_BASE } from "../constants";
 
 // ── Badge ──────────────────────────────────────────────────────────────────
 export const Badge = ({ s }) => {
