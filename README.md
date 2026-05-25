@@ -1,6 +1,7 @@
 <div align="center">
 
 # 🪶 Tweetalyze
+
 ### Twitter Sentiment Analyzer
 
 **A full-stack ML web app that classifies tweet sentiment in real time.**
@@ -52,14 +53,14 @@ Trained on **1.6 million tweets** using TF-IDF + Emoji features. Ships with a Bi
 
 ## 📊 Model Performance
 
-| Model | Type | Accuracy |
-|---|---|---|
-| Logistic Regression (tuned) | Binary | **76.71%** |
-| SVM (LinearSVC) | Binary | 76.61% |
-| Naive Bayes (Bernoulli) | Binary | 75.65% |
-| VADER (baseline) | Binary | 66.40% |
-| SVM (LinearSVC) | 3-Class | **88.13%** |
-| Logistic Regression | 3-Class | 87.95% |
+| Model                       | Type    | Accuracy   |
+| --------------------------- | ------- | ---------- |
+| Logistic Regression (tuned) | Binary  | **76.71%** |
+| SVM (LinearSVC)             | Binary  | 76.61%     |
+| Naive Bayes (Bernoulli)     | Binary  | 75.65%     |
+| VADER (baseline)            | Binary  | 66.40%     |
+| SVM (LinearSVC)             | 3-Class | **88.13%** |
+| Logistic Regression         | 3-Class | 87.95%     |
 
 > Trained on Sentiment140 (1.28M tweets), tested on 320K tweets. TF-IDF with 5,000 features (unigrams + bigrams).
 
@@ -155,21 +156,23 @@ npm start
 
 Base URL (local): `http://localhost:5000`
 
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/` | Health check |
-| `POST` | `/predict-binary` | Returns `Positive` or `Negative` |
-| `POST` | `/predict-3class` | Returns `Positive`, `Neutral`, or `Negative` |
-| `GET` | `/history` | Fetch prediction history |
-| `DELETE` | `/history/clear` | Clear prediction history |
+| Method   | Endpoint          | Description                                  |
+| -------- | ----------------- | -------------------------------------------- |
+| `GET`    | `/`               | Health check                                 |
+| `POST`   | `/predict-binary` | Returns `Positive` or `Negative`             |
+| `POST`   | `/predict-3class` | Returns `Positive`, `Neutral`, or `Negative` |
+| `GET`    | `/history`        | Fetch prediction history                     |
+| `DELETE` | `/history/clear`  | Clear prediction history                     |
 
 **Example request:**
+
 ```json
 POST /predict-binary
 { "text": "I absolutely love this!" }
 ```
 
 **Example response:**
+
 ```json
 { "type": "binary", "sentiment": "Positive" }
 ```
@@ -193,6 +196,7 @@ Sentiment Label
 ```
 
 **Training steps:**
+
 1. Load Sentiment140 dataset (1.6M tweets)
 2. Clean and preprocess text
 3. Extract TF-IDF features + emoji sentiment score
@@ -204,53 +208,55 @@ Sentiment Label
 
 ## 🛠️ Tech Stack
 
-| Layer | Tech |
-|---|---|
-| Frontend | React 19, Recharts, DM Sans, Space Mono |
-| Backend | Flask, Flask-CORS, Gunicorn |
-| ML | scikit-learn, pandas, scipy, joblib, emoji |
-| Dataset | Sentiment140 (1.6M tweets), Emoji Sentiment Data v1.0 |
-| Deployment | Vercel (frontend), Render (backend) |
+| Layer      | Tech                                                  |
+| ---------- | ----------------------------------------------------- |
+| Frontend   | React 19, Recharts, DM Sans, Space Mono               |
+| Backend    | Flask, Flask-CORS, Gunicorn                           |
+| ML         | scikit-learn, pandas, scipy, joblib, emoji            |
+| Dataset    | Sentiment140 (1.6M tweets), Emoji Sentiment Data v1.0 |
+| Deployment | Vercel (frontend), Render (backend)                   |
 
 ---
 
 ## 🤝 Contributors
 
 <table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/rudrasingh-7">
-        <img src="https://github.com/rudrasingh-7.png?size=100" width="100px;" alt="Rudra Singh"/>
-        <br />
-        <sub><b>Rudra Singh</b></sub>
-      </a>
-    </td>
+<tr>
+<td align="center">
+<a href="https://github.com/rudrasingh-7">
+<img src="https://github.com/rudrasingh-7.png" width="100px;" alt="Rudra Singh">
+<br>
+<sub><b>Rudra Singh</b></sub>
+</a>
+</td>
 
-    <td align="center">
-      <a href="https://github.com/aprakash42">
-        <img src="https://github.com/aprakash42.png?size=100" width="100px;" alt="aprakash42"/>
-        <br />
-        <sub><b>aprakash42</b></sub>
-      </a>
-    </td>
+<td align="center">
+<a href="https://github.com/aprakash42">
+<img src="https://github.com/aprakash42.png" width="100px;" alt="aprakash42">
+<br>
+<sub><b>aprakash42</b></sub>
+</a>
+</td>
 
-    <td align="center">
-      <a href="https://github.com/amm-09">
-        <img src="https://github.com/amm-09.png?size=100" width="100px;" alt="amm-09"/>
-        <br />
-        <sub><b>amm-09</b></sub>
-      </a>
-    </td>
+<td align="center">
+<a href="https://github.com/amm-09">
+<img src="https://github.com/amm-09.png" width="100px;" alt="amm-09">
+<br>
+<sub><b>amm-09</b></sub>
+</a>
+</td>
 
-    <td align="center">
-      <a href="https://github.com/Ayushmanitripathi">
-        <img src="https://github.com/Ayushmanitripathi.png?size=100" width="100px;" alt="Ayushmanitripathi"/>
-        <br />
-        <sub><b>Ayushmanitripathi</b></sub>
-      </a>
-    </td>
-  </tr>
+<td align="center">
+<a href="https://github.com/Ayushmanitripathi">
+<img src="https://github.com/Ayushmanitripathi.png" width="100px;" alt="Ayushmanitripathi">
+<br>
+<sub><b>Ayushmanitripathi</b></sub>
+</a>
+</td>
+</tr>
 </table>
+
+---
 
 ## 📄 License
 
