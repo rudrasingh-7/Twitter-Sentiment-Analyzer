@@ -5,3 +5,4 @@ scipy
 pandas
 emoji
 scikit-learn
+gunicorn
