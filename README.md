@@ -11,9 +11,9 @@ Trained on **1.6 million tweets** using TF-IDF + Emoji features. Ships with a Bi
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rudrasingh-7/Twitter-Sentiment-Analyzer)
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-3.x-000000?flat-square&logo=flask)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?flat-square&logo=scikit-learn)
-![Tweets](https://img.shields.io/badge/Dataset-1.6M_Tweets-1DA1F2?flat-square&logo=twitter)
+![Flask](https://img.shields.io/badge/Flask-3.x-000000?style=flat-square&logo=flask)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat-square&logo=scikit-learn)
+![Tweets](https://img.shields.io/badge/Dataset-1.6M_Tweets-1DA1F2?style=flat-square&logo=twitter)
 
 </div>
 
@@ -21,7 +21,9 @@ Trained on **1.6 million tweets** using TF-IDF + Emoji features. Ships with a Bi
 
 ## 📸 Preview
 
-> 💡 Add a screenshot here — drag an image into this file on GitHub to upload it instantly.
+<p align="center">
+  <img src="./assets/dashboard-overview.png" alt="Tweetalyze dashboard overview" width="100%" />
+</p>
 
 ---
 
@@ -32,6 +34,19 @@ Trained on **1.6 million tweets** using TF-IDF + Emoji features. Ships with a Bi
 - 😊 **Emoji-aware** — uses Emoji Sentiment Data v1.0 as an additional feature
 - 📊 **Interactive dashboard** — cross-validation charts, model comparisons, error analysis, prediction history
 - 🌌 **Dark UI** — animated starfield background with a clean purple aesthetic
+
+### Prediction UI
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./assets/binary-prediction.png" alt="Binary prediction UI" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="./assets/three-class-prediction.png" alt="3-class prediction UI" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -47,6 +62,27 @@ Trained on **1.6 million tweets** using TF-IDF + Emoji features. Ships with a Bi
 | Logistic Regression | 3-Class | 87.95% |
 
 > Trained on Sentiment140 (1.28M tweets), tested on 320K tweets. TF-IDF with 5,000 features (unigrams + bigrams).
+
+### Evaluation Charts
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./assets/binary-cross-validation.png" alt="5-fold cross validation results" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="./assets/roc-auc-curves.png" alt="ROC-AUC curves" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./assets/confusion-matrices.png" alt="Confusion matrices" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="./assets/feature-importance.png" alt="Feature importance by class" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ---
 
