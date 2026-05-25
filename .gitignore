@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Large data files (too big for GitHub)
+backend/training.1600000.processed.noemoticon.csv
+ml/training.1600000.processed.noemoticon.csv
+
+# Frontend
+tweetalyze/node_modules/
+tweetalyze/build/

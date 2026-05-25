@@ -1,0 +1,7 @@
+flask
+flask-cors
+joblib
+scipy
+pandas
+emoji
+scikit-learn
