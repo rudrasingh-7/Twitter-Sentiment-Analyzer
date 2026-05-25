@@ -220,7 +220,7 @@ Sentiment Label
   <tr>
     <td align="center">
       <a href="https://github.com/rudrasingh-7">
-        <img src="https://github.com/rudrasingh-7.png" width="100px;" alt="Rudra"/>
+        <img src="https://github.com/rudrasingh-7.png?size=100" width="100px;" alt="Rudra Singh"/>
         <br />
         <sub><b>Rudra Singh</b></sub>
       </a>
@@ -228,7 +228,7 @@ Sentiment Label
 
     <td align="center">
       <a href="https://github.com/aprakash42">
-        <img src="https://github.com/aprakash42.png" width="100px;" alt="aprakash42"/>
+        <img src="https://github.com/aprakash42.png?size=100" width="100px;" alt="aprakash42"/>
         <br />
         <sub><b>aprakash42</b></sub>
       </a>
@@ -236,7 +236,7 @@ Sentiment Label
 
     <td align="center">
       <a href="https://github.com/amm-09">
-        <img src="https://github.com/amm-09.png" width="100px;" alt="amm-09"/>
+        <img src="https://github.com/amm-09.png?size=100" width="100px;" alt="amm-09"/>
         <br />
         <sub><b>amm-09</b></sub>
       </a>
@@ -244,7 +244,7 @@ Sentiment Label
 
     <td align="center">
       <a href="https://github.com/Ayushmanitripathi">
-        <img src="https://github.com/Ayushmanitripathi.png" width="100px;" alt="Ayushmanitripathi"/>
+        <img src="https://github.com/Ayushmanitripathi.png?size=100" width="100px;" alt="Ayushmanitripathi"/>
         <br />
         <sub><b>Ayushmanitripathi</b></sub>
       </a>
