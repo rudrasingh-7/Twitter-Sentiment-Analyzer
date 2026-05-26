@@ -105,10 +105,27 @@ export const OverviewTab = () => {
               <BarChart data={CLASS_DIST} margin={{ top: 0, right: 0, left: -20, bottom: 0 }}>
                 <XAxis dataKey="label" tick={{ fill: "#6a5a8a", fontSize: 11 }} axisLine={false} tickLine={false} />
                 <YAxis tick={{ fill: "#6a5a8a", fontSize: 10 }} axisLine={false} tickLine={false} />
-                <Tooltip
-                  formatter={v => v.toLocaleString()}
-                  contentStyle={{ background: "#1e1226", border: "1px solid #4a3060", borderRadius: 8, fontSize: 12 }}
-                />
+                 <Tooltip
+  cursor={{ fill: "rgba(255,255,255,0.05)" }}
+  content={({ active, payload }) => {
+    if (!active || !payload?.length) return null;
+    const { label, count, color } = payload[0].payload;
+    return (
+      <div style={{
+        background: "#1e1226", border: "1px solid #4a3060",
+        borderRadius: 8, padding: "10px 14px", fontSize: 12,
+        color: "#e0d6f0", boxShadow: "0 8px 32px rgba(0,0,0,0.5)",
+      }}>
+        <span style={{ color, fontFamily: "'Space Mono',monospace", fontWeight: 700 }}>
+          {label}
+        </span>
+        <div style={{ color: "#a090c0", marginTop: 3 }}>
+          count : {count.toLocaleString()}
+        </div>
+      </div>
+    );
+  }}
+/>
                 <Bar dataKey="count" radius={[6,6,0,0]}>
                   {CLASS_DIST.map((c, i) => <Cell key={i} fill={c.color} />)}
                 </Bar>
